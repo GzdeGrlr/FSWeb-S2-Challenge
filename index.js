@@ -210,7 +210,7 @@ function emojileriDonustur(mesaj,emoji){
 	return mesaj;
 }
 
-//console.log(emojileriDonustur("Merhaba :)", emojiler));
+console.log(emojileriDonustur("Merhaba :)", emojiler));
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 function sa(){
