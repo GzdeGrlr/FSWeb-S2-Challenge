@@ -131,7 +131,7 @@ function paragrafOlustur(array,callbackCumleKur,callbackCumlelereDonustur){
 	
 	return callbackCumleKur(Arr[1],Arr[3],Arr[5],Arr[7],Arr[9]);
 		
-	// let Arr = [];  ==> Bu neden undefined geliyor?
+	// let Arr = []; ==> Undefined?
 	// Arr.push(callbackCumlelereDonustur(array," "));
 	
 	// return callbackCumleKur(Arr[1],Arr[3],Arr[5],Arr[7],Arr[9]);
@@ -149,7 +149,7 @@ console.log(paragrafOlustur(cumleler,cumleKur,cumlelereDonustur));
 
 meyveler.shift();
 meyveler.pop()
-//console.log(meyveler);
+console.log(meyveler);
 
 
  
@@ -160,7 +160,7 @@ meyveler.pop()
 
 sebzeler.unshift("🐇")
 sebzeler.push("🦔")
-//console.log(sebzeler);
+console.log(sebzeler);
 
 
 
@@ -172,7 +172,7 @@ sebzeler.push("🦔")
 /* kodlar buraya */
 
 var manav=meyveler.concat(sebzeler);
-//console.log(manav);
+console.log(manav);
 
 
 
